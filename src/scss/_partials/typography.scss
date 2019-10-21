@@ -1,26 +1,63 @@
- @import url("https://use.typekit.net/hxf1fdp.css");
+// FONT OPTIONS
+//
+// AvenirNextLTPro-BoldCnIt
+// AvenirNextLTPro-Bold
+// AvenirNextLTPro-BoldCn
+// AvenirNextLTPro-Cn
+// AvenirNextLTPro-CnIt
+// AvenirNextLTPro-BoldIt
+// AvenirNextLTPro-DemiCn
+// AvenirNextLTPro-DemiCnIt
+// AvenirNextLTPro-HeavyCnIt
+// AvenirNextLTPro-HeavyCn
+// AvenirNextLTPro-Demi
+// AvenirNextLTPro-DemiIt
+// AvenirNextLTPro-HeavyIt
+// AvenirNextLTPro-Heavy
+// AvenirNextLTPro-It
+// AvenirNextLTPro-LightCnIt
+// AvenirNextLTPro-LightCn
+// AvenirNextLTPro-LightIt
+// AvenirNextLTPro-Light
+// AvenirNextLTPro-MediumCnIt
+// AvenirNextLTPro-MediumCn
+// AvenirNextLTPro-MediumIt
+// AvenirNextLTPro-Regular
+// AvenirNextLTPro-Medium
+// AvenirNextLTPro-ThinCnIt
+// AvenirNextLTPro-ThinCn
+// AvenirNextLTPro-ThinIt
+// AvenirNextLTPro-UltLtCnIt
+// AvenirNextLTPro-Thin
+// AvenirNextLTPro-UltLtCn
+// AvenirNextLTPro-UltLtIt
+// AvenirNextLTPro-UltLt
 
 /* Variables */
-$font           : "din-2014",helvetica,sans-serif;
-$font           : "avenir next lt pro",helvetica,sans-serif;
+$body               : "AvenirNextLTPro-Regular",sans-serif;
+$body-italic        : "AvenirNextLTPro-It",sans-serif;
+$demi               : "AvenirNextLTPro-Demi",sans-serif;
+$demi-italic        : "AvenirNextLTPro-DemiIt",sans-serif;
+$bold               : "AvenirNextLTPro-Bold",sans-serif;
+$bold-italic        : "AvenirNextLTPro-BoldIt",sans-serif;
 
 h1,h2,h3,h4,h5,h6,p,a,li {
-    font-family:$font;
+    font-family:$body;
 }
 
 h1,h2,h4,h6 {
-    font-weight:600;
+    font-family:$demi;
     color:#1d1d1d;
-    letter-spacing:.01em;
 }
 h2,h4,h6 {
     line-height:1.2em;
 }
+h4 {
+  font-family:$demi;
+}
 h1 {
     line-height:1em;
-}
-h4 {
-  font-weight:600;
+    font-family:$bold;
 }
 h6 {
   font-size:1.2em;
@@ -164,22 +201,6 @@ section .container {
 section.no-border .container {
   border-bottom:none;
 }
-section.solid {
-  padding-top:0;
-  padding-bottom:0;
-}
-section.solid .container {
-  padding-top:6rem;
-  padding-bottom:6rem;
-  border-radius:10px;
-}
-.container.green {
-  background-color:$green;
-  color:white;
-}
-.container.green span {
-  color:yellow;
-}
 
 .container {
 max-width:76.875rem
@@ -212,6 +233,7 @@ img {
     border:none;
     padding:1rem 1.5rem;
     border-radius:10px;
+    font-family:$demi;
     &:hover {
         background-color:darken($green,10);
     }

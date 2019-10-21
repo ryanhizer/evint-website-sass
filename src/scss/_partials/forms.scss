@@ -14,4 +14,15 @@
   padding:1.5rem;
   border-radius:10px;
   border:2px solid #ddd;
+    &:focus {
+        border:2px solid $app-green;
+    }
+}
+
+label {
+    display:none;
+}
+
+.hidden-field {
+    display:none;
 }

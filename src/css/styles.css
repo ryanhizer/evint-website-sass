@@ -4,7 +4,6 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://use.typekit.net/hxf1fdp.css");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7023,21 +7022,21 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* Variables */
 h1, h2, h3, h4, h5, h6, p, a, li {
-  font-family: "avenir next lt pro", helvetica, sans-serif; }
+  font-family: "AvenirNextLTPro-Regular", sans-serif; }
 
 h1, h2, h4, h6 {
-  font-weight: 600;
-  color: #1d1d1d;
-  letter-spacing: .01em; }
+  font-family: "AvenirNextLTPro-Demi", sans-serif;
+  color: #1d1d1d; }
 
 h2, h4, h6 {
   line-height: 1.2em; }
 
-h1 {
-  line-height: 1em; }
-
 h4 {
-  font-weight: 600; }
+  font-family: "AvenirNextLTPro-Demi", sans-serif; }
+
+h1 {
+  line-height: 1em;
+  font-family: "AvenirNextLTPro-Bold", sans-serif; }
 
 h6 {
   font-size: 1.2em; }
@@ -7152,22 +7151,6 @@ section .container {
 section.no-border .container {
   border-bottom: none; }
 
-section.solid {
-  padding-top: 0;
-  padding-bottom: 0; }
-
-section.solid .container {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  border-radius: 10px; }
-
-.container.green {
-  background-color: #23b790;
-  color: white; }
-
-.container.green span {
-  color: yellow; }
-
 .container {
   max-width: 76.875rem; }
 
@@ -7194,7 +7177,8 @@ img {
   background-color: #23b790;
   border: none;
   padding: 1rem 1.5rem;
-  border-radius: 10px; }
+  border-radius: 10px;
+  font-family: "AvenirNextLTPro-Demi", sans-serif; }
   .btn-primary:hover {
     background-color: #1b8c6e; }
 
@@ -7215,6 +7199,14 @@ img {
   padding: 1.5rem;
   border-radius: 10px;
   border: 2px solid #ddd; }
+  .form-control:focus {
+    border: 2px solid #27b790; }
+
+label {
+  display: none; }
+
+.hidden-field {
+  display: none; }
 
 html, body {
   max-width: 100%;
@@ -7242,7 +7234,7 @@ html, body {
 .how-it-works .jumbotron {
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url("../assets/img/pattern.jpg");
+  background: url("../assets/img/elements_how-it-works.svg");
   background-size: cover;
   color: white;
   border-radius: 0; }
@@ -7259,16 +7251,13 @@ html, body {
   .company .jumbotron h1, .company .jumbotron p {
     color: #1d1d1d; }
 
-.schedule-a-demo .jumbotron {
+.thank-you .jumbotron, .schedule-a-demo .jumbotron {
   background: white;
   background-size: cover;
   color: white;
   border-radius: 0; }
-  .schedule-a-demo .jumbotron h1, .schedule-a-demo .jumbotron p {
+  .thank-you .jumbotron h1, .thank-you .jumbotron p, .schedule-a-demo .jumbotron h1, .schedule-a-demo .jumbotron p {
     color: #1d1d1d; }
-
-.jumbotron h1 {
-  font-weight: 600; }
 
 section.blue {
   background: #0e2445; }
@@ -7290,12 +7279,37 @@ section.blue {
   .btn-primary:hover {
     background-color: #03afb7; }
 
+section.solid {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+section.solid .container {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  border-radius: 10px; }
+
+.container.green {
+  background: #0E2445; }
+
+.container.green h3 {
+  font-family: "AvenirNextLTPro-Demi", sans-serif;
+  color: white; }
+
+.container.green span {
+  color: #24AB7E;
+  font-family: "AvenirNextLTPro-Bold", sans-serif; }
+
 footer {
   background-color: #f6f7f8;
   padding-top: 6rem;
   padding-bottom: 6rem; }
   footer .logo {
     width: 100px; }
+
+.cta {
+  padding-top: 8em; }
+  .cta .container {
+    padding-bottom: 8em; }
 
 body {
   color: black;
