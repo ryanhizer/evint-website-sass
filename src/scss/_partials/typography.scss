@@ -1,0 +1,223 @@
+ @import url("https://use.typekit.net/hxf1fdp.css");
+
+/* Variables */
+$font           : "din-2014",helvetica,sans-serif;
+$font           : "avenir next lt pro",helvetica,sans-serif;
+
+h1,h2,h3,h4,h5,h6,p,a,li {
+    font-family:$font;
+}
+
+h1,h2,h4,h6 {
+    font-weight:600;
+    color:#1d1d1d;
+    letter-spacing:.01em;
+}
+h2,h4,h6 {
+    line-height:1.2em;
+}
+h1 {
+    line-height:1em;
+}
+h4 {
+  font-weight:600;
+}
+h6 {
+  font-size:1.2em;
+}
+
+.headline_larger {
+  font-size:3.3rem;
+  @media (max-width:$screen-lg) {
+    font-size:2.5rem;
+  }
+  @media (max-width:$screen-md) {
+    font-size:2.1rem;
+  }
+}
+
+h3,h5,h6,p,a,li {
+    line-height:1.5em;
+}
+
+.icon {
+  color:lighten($app-link,10);
+}
+a {
+  font-size:1.2em;
+  color:lighten($app-link,10);
+  &:hover {
+    color:lighten($app-link,10);
+    cursor:pointer!important;
+  }
+}
+
+ul {
+  list-style-type:none;
+}
+
+.icon {
+  font-size:3.5rem;
+}
+
+.theme-evint {
+  --fa-secondary-opacity: 1;
+  --fa-primary-color: white;
+  --fa-secondary-color: #24AB7E;
+}
+
+.theme-evint-dark {
+  font-size:3em;
+  --fa-secondary-opacity: 1;
+  --fa-primary-color: #0B2970;
+  --fa-secondary-color: #24AB7E;
+}
+
+.boost {
+  font-size:2rem;
+}
+
+.navbar-brand img.logo {
+  width:100px;
+}
+
+.navbar {
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link {
+  padding-right:1rem;
+  padding-left:1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color:yellow;
+}
+
+.navbar-dark .navbar-toggler {
+  color:white;
+  opacity:1;
+  border:none;
+}
+
+.navbar-light .navbar-toggler {
+  opacity:1;
+  border:none;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:visited {
+  outline:none;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link {
+  font-size:1.2rem;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+  color:$app-link;
+  &:hover {
+    color:lighten($app-link,5);
+  }
+}
+
+
+@media (max-width:991px){
+    .nav-item:first-of-type {
+      margin-top:1rem;
+    }
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-dark .navbar-nav .nav-link {
+      padding-right:0rem;
+      padding-left:0rem;
+      text-align:center;
+      font-size:2rem;
+    }
+}
+
+.jumbotron {
+  margin-bottom:0;
+}
+
+hr {
+  padding:0;
+  margin:0;
+}
+
+section, footer {
+  background-color:white;
+  padding-top:6rem;
+  padding-bottom:0rem;
+}
+section .container {
+  border-bottom:2px solid #eee;
+  padding-bottom:6rem;
+}
+section.no-border .container {
+  border-bottom:none;
+}
+section.solid {
+  padding-top:0;
+  padding-bottom:0;
+}
+section.solid .container {
+  padding-top:6rem;
+  padding-bottom:6rem;
+  border-radius:10px;
+}
+.container.green {
+  background-color:$green;
+  color:white;
+}
+.container.green span {
+  color:yellow;
+}
+
+.container {
+max-width:76.875rem
+}
+
+footer a.logo {
+  display:block;
+  width:100px;
+}
+
+.margin-bottom-sm {
+  margin-bottom:20px;
+}
+.margin-bottom-md {
+  margin-bottom:40px;
+}
+.margin-bottom-lg {
+  margin-bottom:60px;
+}
+.margin-bottom-none {
+  margin-bottom:0;
+}
+
+img {
+  width:100%;
+}
+
+.btn-primary {
+    background-color:$green;
+    border:none;
+    padding:1rem 1.5rem;
+    border-radius:10px;
+    &:hover {
+        background-color:darken($green,10);
+    }
+}
+
+.center {
+  display:block;
+  margin:0 auto;
+}

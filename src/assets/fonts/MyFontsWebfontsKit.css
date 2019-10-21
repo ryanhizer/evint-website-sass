@@ -1,0 +1,244 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3826449, 2019-10-19T14:35:39-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirNextLTPro-BoldCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-bold-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-bold/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-BoldCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-bold/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-Cn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/avenira-next-pro-condensed/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-CnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-BoldIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-bold-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-DemiCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-demi/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-DemiCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-demi-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-HeavyCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-heavy-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-HeavyCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-heavy/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-Demi by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-demi/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-DemiIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-demi-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-HeavyIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-heavy-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-Heavy by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-heavy/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-It by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-LightCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-light-italic/
+ * Copyright: Copyright &#x00A9; 2012 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-LightCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-light/
+ * Copyright: Copyright &#x00A9; 2012 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-LightIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-light-italic/
+ * Copyright: Copyright &#x00A9; 2012 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-Light by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-light/
+ * Copyright: Copyright &#x00A9; 2012 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-MediumCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-medium-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-MediumCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-medium/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-MediumIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-medium-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-regular/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-Medium by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-medium/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-ThinCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-thin-italic/
+ * Copyright: Copyright &#x00A9; 2012 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-ThinCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-thin/
+ * Copyright: Copyright &#x00A9; 2012 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-ThinIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-thin-italic/
+ * Copyright: Copyright &#x00A9; 2012 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-UltLtCnIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-ultralight-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-Thin by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-thin/
+ * Copyright: Copyright &#x00A9; 2012 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-UltLtCn by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-condensed-ultralight/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-UltLtIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-ultralight-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: AvenirNextLTPro-UltLt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-ultralight/
+ * Copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3826449
+ * Licensed pageviews: 10
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+
+
+  
+@font-face {font-family: 'AvenirNextLTPro-BoldCnIt';src: url('webfonts/3A6311_0_0.eot');src: url('webfonts/3A6311_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_0_0.woff2') format('woff2'),url('webfonts/3A6311_0_0.woff') format('woff'),url('webfonts/3A6311_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Bold';src: url('webfonts/3A6311_1_0.eot');src: url('webfonts/3A6311_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_1_0.woff2') format('woff2'),url('webfonts/3A6311_1_0.woff') format('woff'),url('webfonts/3A6311_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-BoldCn';src: url('webfonts/3A6311_2_0.eot');src: url('webfonts/3A6311_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_2_0.woff2') format('woff2'),url('webfonts/3A6311_2_0.woff') format('woff'),url('webfonts/3A6311_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Cn';src: url('webfonts/3A6311_3_0.eot');src: url('webfonts/3A6311_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_3_0.woff2') format('woff2'),url('webfonts/3A6311_3_0.woff') format('woff'),url('webfonts/3A6311_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-CnIt';src: url('webfonts/3A6311_4_0.eot');src: url('webfonts/3A6311_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_4_0.woff2') format('woff2'),url('webfonts/3A6311_4_0.woff') format('woff'),url('webfonts/3A6311_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-BoldIt';src: url('webfonts/3A6311_5_0.eot');src: url('webfonts/3A6311_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_5_0.woff2') format('woff2'),url('webfonts/3A6311_5_0.woff') format('woff'),url('webfonts/3A6311_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-DemiCn';src: url('webfonts/3A6311_6_0.eot');src: url('webfonts/3A6311_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_6_0.woff2') format('woff2'),url('webfonts/3A6311_6_0.woff') format('woff'),url('webfonts/3A6311_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-DemiCnIt';src: url('webfonts/3A6311_7_0.eot');src: url('webfonts/3A6311_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_7_0.woff2') format('woff2'),url('webfonts/3A6311_7_0.woff') format('woff'),url('webfonts/3A6311_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-HeavyCnIt';src: url('webfonts/3A6311_8_0.eot');src: url('webfonts/3A6311_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_8_0.woff2') format('woff2'),url('webfonts/3A6311_8_0.woff') format('woff'),url('webfonts/3A6311_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-HeavyCn';src: url('webfonts/3A6311_9_0.eot');src: url('webfonts/3A6311_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_9_0.woff2') format('woff2'),url('webfonts/3A6311_9_0.woff') format('woff'),url('webfonts/3A6311_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Demi';src: url('webfonts/3A6311_A_0.eot');src: url('webfonts/3A6311_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_A_0.woff2') format('woff2'),url('webfonts/3A6311_A_0.woff') format('woff'),url('webfonts/3A6311_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-DemiIt';src: url('webfonts/3A6311_B_0.eot');src: url('webfonts/3A6311_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_B_0.woff2') format('woff2'),url('webfonts/3A6311_B_0.woff') format('woff'),url('webfonts/3A6311_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-HeavyIt';src: url('webfonts/3A6311_C_0.eot');src: url('webfonts/3A6311_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_C_0.woff2') format('woff2'),url('webfonts/3A6311_C_0.woff') format('woff'),url('webfonts/3A6311_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Heavy';src: url('webfonts/3A6311_D_0.eot');src: url('webfonts/3A6311_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_D_0.woff2') format('woff2'),url('webfonts/3A6311_D_0.woff') format('woff'),url('webfonts/3A6311_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-It';src: url('webfonts/3A6311_E_0.eot');src: url('webfonts/3A6311_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_E_0.woff2') format('woff2'),url('webfonts/3A6311_E_0.woff') format('woff'),url('webfonts/3A6311_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-LightCnIt';src: url('webfonts/3A6311_F_0.eot');src: url('webfonts/3A6311_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_F_0.woff2') format('woff2'),url('webfonts/3A6311_F_0.woff') format('woff'),url('webfonts/3A6311_F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-LightCn';src: url('webfonts/3A6311_10_0.eot');src: url('webfonts/3A6311_10_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_10_0.woff2') format('woff2'),url('webfonts/3A6311_10_0.woff') format('woff'),url('webfonts/3A6311_10_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-LightIt';src: url('webfonts/3A6311_11_0.eot');src: url('webfonts/3A6311_11_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_11_0.woff2') format('woff2'),url('webfonts/3A6311_11_0.woff') format('woff'),url('webfonts/3A6311_11_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Light';src: url('webfonts/3A6311_12_0.eot');src: url('webfonts/3A6311_12_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_12_0.woff2') format('woff2'),url('webfonts/3A6311_12_0.woff') format('woff'),url('webfonts/3A6311_12_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-MediumCnIt';src: url('webfonts/3A6311_13_0.eot');src: url('webfonts/3A6311_13_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_13_0.woff2') format('woff2'),url('webfonts/3A6311_13_0.woff') format('woff'),url('webfonts/3A6311_13_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-MediumCn';src: url('webfonts/3A6311_14_0.eot');src: url('webfonts/3A6311_14_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_14_0.woff2') format('woff2'),url('webfonts/3A6311_14_0.woff') format('woff'),url('webfonts/3A6311_14_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-MediumIt';src: url('webfonts/3A6311_15_0.eot');src: url('webfonts/3A6311_15_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_15_0.woff2') format('woff2'),url('webfonts/3A6311_15_0.woff') format('woff'),url('webfonts/3A6311_15_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Regular';src: url('webfonts/3A6311_16_0.eot');src: url('webfonts/3A6311_16_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_16_0.woff2') format('woff2'),url('webfonts/3A6311_16_0.woff') format('woff'),url('webfonts/3A6311_16_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Medium';src: url('webfonts/3A6311_17_0.eot');src: url('webfonts/3A6311_17_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_17_0.woff2') format('woff2'),url('webfonts/3A6311_17_0.woff') format('woff'),url('webfonts/3A6311_17_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-ThinCnIt';src: url('webfonts/3A6311_18_0.eot');src: url('webfonts/3A6311_18_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_18_0.woff2') format('woff2'),url('webfonts/3A6311_18_0.woff') format('woff'),url('webfonts/3A6311_18_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-ThinCn';src: url('webfonts/3A6311_19_0.eot');src: url('webfonts/3A6311_19_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_19_0.woff2') format('woff2'),url('webfonts/3A6311_19_0.woff') format('woff'),url('webfonts/3A6311_19_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-ThinIt';src: url('webfonts/3A6311_1A_0.eot');src: url('webfonts/3A6311_1A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_1A_0.woff2') format('woff2'),url('webfonts/3A6311_1A_0.woff') format('woff'),url('webfonts/3A6311_1A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-UltLtCnIt';src: url('webfonts/3A6311_1B_0.eot');src: url('webfonts/3A6311_1B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_1B_0.woff2') format('woff2'),url('webfonts/3A6311_1B_0.woff') format('woff'),url('webfonts/3A6311_1B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-Thin';src: url('webfonts/3A6311_1C_0.eot');src: url('webfonts/3A6311_1C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_1C_0.woff2') format('woff2'),url('webfonts/3A6311_1C_0.woff') format('woff'),url('webfonts/3A6311_1C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-UltLtCn';src: url('webfonts/3A6311_1D_0.eot');src: url('webfonts/3A6311_1D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_1D_0.woff2') format('woff2'),url('webfonts/3A6311_1D_0.woff') format('woff'),url('webfonts/3A6311_1D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-UltLtIt';src: url('webfonts/3A6311_1E_0.eot');src: url('webfonts/3A6311_1E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_1E_0.woff2') format('woff2'),url('webfonts/3A6311_1E_0.woff') format('woff'),url('webfonts/3A6311_1E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirNextLTPro-UltLt';src: url('webfonts/3A6311_1F_0.eot');src: url('webfonts/3A6311_1F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A6311_1F_0.woff2') format('woff2'),url('webfonts/3A6311_1F_0.woff') format('woff'),url('webfonts/3A6311_1F_0.ttf') format('truetype');}
+ 

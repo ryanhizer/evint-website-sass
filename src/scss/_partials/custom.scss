@@ -1,0 +1,103 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-dark {
+    background:$app-blue;
+    padding:1rem 2rem;
+}
+
+
+.navbar-light {
+    padding:1rem 2rem;
+}
+
+.homepage .jumbotron {
+    background:white;
+    // background:url('../assets/img/home-hero.jpg');
+    // background-size:cover;
+}
+
+.homepage .jumbotron {
+  padding-top:2rem;
+  padding-bottom:5rem;
+  img {
+    width:160%;
+    @media (max-width:$screen-md) {
+      width:100%;
+    }
+  }
+}
+
+.how-it-works .jumbotron {
+  padding-top:8rem;
+  padding-bottom:8rem;
+  background:url('../assets/img/pattern.jpg');
+  background-size:cover;
+  color:white;
+  border-radius:0;
+  h1 {
+    color:white;
+  }
+}
+
+.company .jumbotron {
+  padding-top:2rem;
+  padding-bottom:2rem;
+  background:white;
+  background-size:cover;
+  color:white;
+  border-radius:0;
+  h1,p {
+    color:#1d1d1d;
+  }
+}
+
+.schedule-a-demo .jumbotron {
+  background:white;
+  background-size:cover;
+  color:white;
+  border-radius:0;
+  h1,p {
+    color:#1d1d1d;
+  }
+}
+
+.jumbotron h1 {
+    font-weight:600;
+}
+
+section.blue {
+    background:desaturate(darken($app-blue,0),0);
+    h1,h2,h3,h4,h5,h6,p {
+        color:white;
+    }
+}
+
+.btn {
+  text-transform:uppercase;
+  letter-spacing:.03em;
+  font-size:1rem;
+  border-radius:4px;
+  @media (max-width:$screen-md) {
+    width:100%;
+    margin-bottom:4rem;
+  }
+}
+
+.btn-primary {
+  background-color:$app-link;
+  &:hover {
+    background-color:lighten($app-link,5);
+  }
+}
+
+footer {
+  background-color:lighten(#e8eaed,5);
+  padding-top:6rem;
+  padding-bottom:6rem;
+  .logo {
+    width:100px;
+  }
+}

@@ -1,0 +1,15 @@
+$theme-colors: (
+     "primary": black
+);
+
+@import "_partials/brand";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "_partials/breakpoints";
+@import "_partials/typography";
+@import "_partials/forms";
+@import "_partials/custom";
+
+body {
+    color: black;
+    background: white;
+}

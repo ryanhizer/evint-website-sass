@@ -1,0 +1,19 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+.navbar-dark {
+  padding: 1rem; }
+
+.homepage .jumbotron {
+  background: white;
+  background: #f8f8f8; }
+
+.homepage .jumbotron {
+  padding-top: 2rem;
+  padding-bottom: 5rem; }
+  .homepage .jumbotron img {
+    width: 150%; }
+
+.jumbotron h1 {
+  font-weight: 600; }
