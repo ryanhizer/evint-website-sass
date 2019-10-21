@@ -33,7 +33,7 @@ html, body {
 .how-it-works .jumbotron {
   padding-top:8rem;
   padding-bottom:8rem;
-  background:url('../assets/img/pattern.jpg');
+  background:url('../assets/img/elements_how-it-works.svg');
   background-size:cover;
   color:white;
   border-radius:0;
@@ -54,7 +54,7 @@ html, body {
   }
 }
 
-.schedule-a-demo .jumbotron {
+.thank-you .jumbotron, .schedule-a-demo .jumbotron {
   background:white;
   background-size:cover;
   color:white;
@@ -62,10 +62,6 @@ html, body {
   h1,p {
     color:#1d1d1d;
   }
-}
-
-.jumbotron h1 {
-    font-weight:600;
 }
 
 section.blue {
@@ -93,6 +89,28 @@ section.blue {
   }
 }
 
+section.solid {
+  padding-top:0;
+  padding-bottom:0;
+}
+section.solid .container {
+  padding-top:10rem;
+  padding-bottom:10rem;
+  border-radius:10px;
+}
+.container.green {
+  background:$app-blue;
+}
+.container.green h3 {
+  font-family:$demi;
+  color: white;
+}
+.container.green span {
+  color:#24AB7E;
+  font-family:$bold;
+}
+
+
 footer {
   background-color:lighten(#e8eaed,5);
   padding-top:6rem;
@@ -100,4 +118,11 @@ footer {
   .logo {
     width:100px;
   }
+}
+
+.cta {
+  .container {
+    padding-bottom:8em;
+  }
+  padding-top:8em;
 }
