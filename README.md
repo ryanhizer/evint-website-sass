@@ -1,5 +1,3 @@
-# evint-website-sass
-
 # Install dependencies
 
 npm install
