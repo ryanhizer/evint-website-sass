@@ -1,9 +1,15 @@
 # evint-website-sass
 
-'npm install' to install dependencies
+# Install dependencies
 
-Install Gulp
+npm install
+
+# Check Gulp version
+
 CLI version: 2.2.0
+
 Local version: 4.0.2
 
-run 'gulp watch' to start dev environment
+# Start dev environment
+
+run "gulp watch"
