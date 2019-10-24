@@ -27,7 +27,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="/"><img class="logo" src="assets/img/evint-logo-alt.svg" alt="Evint Event Analytics Logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler padding-right-mobile-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -56,77 +56,120 @@
               </div>
             </div>
           </div>
+
           <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-              <div class="form-container">
-                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-                  <input type=hidden name='captcha_settings' value='{"keyname":"PT_reCAPTCHA_Key","fallback":"true","orgId":"00D4000000082zx","ts":""}'>
-                  <input type=hidden name="oid" value="00D4000000082zx">
-                  <input type=hidden name="retURL" value="evint.com/thank-you">
+              <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                <input type=hidden name='captcha_settings' value='{"keyname":"PT_reCAPTCHA_Key","fallback":"true","orgId":"00D4000000082zx","ts":""}' />
+                <input type=hidden name="oid" value="00D4000000082zx" />
+                <input name="retURL" type="hidden" value="http://evint.com/thank-you.html" />
 
-                  <!--  ----------------------------------------------------------------------  -->
-                  <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-                  <!--  these lines if you wish to test in debug mode.                          -->
-                  <!--  <input type="hidden" name="debug" value=1>                              -->
-                  <!--  <input type="hidden" name="debugEmail"                                  -->
-                  <!--  value="katie@patrontechnology.com">                                     -->
-                  <!--  ----------------------------------------------------------------------  -->
-                  <div class="form-group form-row">
-                    <div class="col">
-                      <label for="first_name">First Name</label>
-                      <input class="form-control" placeholder="First Name" id="first_name" maxlength="40" name="first_name" size="20" type="text" />
-                    </div>
-                    <div class="col">
-                      <label for="last_name">Last Name</label>
-                      <input class="form-control" placeholder="Last Name" id="last_name" maxlength="80" name="last_name" size="20" type="text" />
-                    </div>
+                <!--  ----------------------------------------------------------------------  -->
+                <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+                <!--  these lines if you wish to test in debug mode.                          -->
+                <!--  <input type="hidden" name="debug" value=1>
+                 <input type="hidden" name="debugEmail" value="katie@patrontechnology.com"> -->
+                <!--  ----------------------------------------------------------------------  -->
+
+                <div class="form-group form-row">
+                  <div class="col">
+                    <label class="control-label required" for="first_name">First name</label>
+                    <input id="first_name" class="form-control" name="first_name" required type="text" placeholder="First Name" />
                   </div>
-                  <div class="form-group form-row">
-                    <div class="col">
-                      <label for="email">Email</label>
-                      <input class="form-control" placeholder="Email" id="email" maxlength="80" name="email" size="20" type="text" />
-                    </div>
-                    <div class="col">
-                      <label for="company">Company</label>
-                      <input class="form-control" placeholder="Company" id="company" maxlength="40" name="company" size="20" type="text" />
-                    </div>
+                  <div class="col">
+                    <label class="control-label required" for="last_name">Last name</label>
+                    <input id="last_name" class="form-control" name="last_name" required type="text" placeholder="Last Name" />
                   </div>
-                  <div class="form-group form-row">
-                    <div class="col">
-                      <label for="city">City</label>
-                      <input class="form-control" placeholder="City" id="city" maxlength="40" name="city" size="20" type="text" />
-                    </div>
-                    <div class="col">
-                      <label for="state">State/Province</label>
-                      <input class="form-control" placeholder="State/Province" id="state" maxlength="20" name="state" size="20" type="text" />
-                    </div>
+                </div>
+                <div class="form-group form-row">
+                  <div class="col">
+                    <label class="control-label required" for="company">Company</label>
+                    <input id="company" class="form-control" name="company" required type="text" placeholder="Company" />
                   </div>
-                  <div class="form-group hidden-field form-row">
-                    <div class="col">
-                      <select class="form-control" id="00N1W000003ecic" name="00N1W000003ecic" title="Inbound Product">
-                      <option value="Evint">Evint</option>
-                      <option value="Thuzi">Thuzi</option>
-                      <option value="Showclix EU">Showclix EU</option>
-                      <option value="Showclix AU">Showclix AU</option>
-                      <option value="Showclix US">Showclix US</option>
-                      <option value="Token">Token</option>
-                      <option value="Marcato">Marcato</option>
-                      <option value="PatronManager">PatronManager</option>
-                      <option value="SeatAdvisor">SeatAdvisor</option>
-                      </select>
-                    </div>
+                  <div class="col">
+                    <label class="control-label required" for="phone">Phone</label>
+                    <input id="phone" class="form-control" name="phone" required type="number" placeholder="555-555-5555" />
                   </div>
-                  <div class="g-recaptcha" data-sitekey="6LfTj5EUAAAAAFRFeAwVanWTHkBugscKKahLXWnG"></div><br>
+                </div>
+                <div class="form-group">
+                  <label class="control-label required" for="email">Email</label>
+                  <input id="email" class="form-control" name="email" required type="email" placeholder="your@email.com" />
+                </div>
+                <div class="form-group">
+                  <label class="control-label " for="description">Comments</label>
+                  <textarea placeholder="Comments" id="description" class="form-control mb-5" cols="40" name="description" rows="5"></textarea>
+                </div>
+                <div class="form-group hidden-field">
+                  Inbound Product:
+                  <select id="00N1W000003ecic" name="00N1W000003ecic" title="Inbound Product">
+                    <option selected value="Evint">Evint</option>
+                    <option value="Greencopper">Greencopper</option>
+                    <option value="Thuzi">Thuzi</option>
+                    <option value="Showclix EU">Showclix EU</option>
+                    <option value="Showclix AU">Showclix AU</option>
+                    <option value="Showclix US">Showclix US</option>
+                    <option value="Token">Token</option>
+                    <option value="Marcato">Marcato</option>
+                    <option value="PatronManager">PatronManager</option>
+                    <option value="SeatAdvisor">SeatAdvisor</option>
+                    <option value="Evint">Evint</option>
+                  </select>
+                </div>
+                <div class="form-group hidden-field">
+                  Traffic Medium:
+                  <select  id="00N40000002Bzhl" name="00N40000002Bzhl" title="Traffic Medium">
+                    <option value="Blog">Blog</option>
+                    <option value="Direct Nav">Direct Nav</option>
+                    <option value="Display Ads">Display Ads</option>
+                    <option value="Email - Incoming">Email - Incoming</option>
+                    <option value="Email Marketing Campaigns - Incoming">Email Marketing Campaigns - Incoming</option>
+                    <option value="Email Marketing Campaigns - Outgoing">Email Marketing Campaigns - Outgoing</option>
+                    <option value="Email - Outgoing">Email - Outgoing</option>
+                    <option value="Event Page">Event Page</option>
+                    <option value="Inbound - Pending">Inbound - Pending</option>
+                    <option value="Lead Gen List">Lead Gen List</option>
+                    <option value="Live Chat">Live Chat</option>
+                    <option value="Organic Search">Organic Search</option>
+                    <option value="Paid Search">Paid Search</option>
+                    <option value="Patron Technology website">Patron Technology website</option>
+                    <option selected value="Evint website">Evint Website</option>
+                    <option value="Phone - Incoming">Phone - Incoming</option>
+                    <option value="Phone - Outgoing">Phone - Outgoing</option>
+                    <option value="Referral - Client">Referral - Client</option>
+                    <option value="Referral - Employee">Referral - Employee</option>
+                    <option value="Referral - Greencopper Client">Referral - Greencopper Client</option>
+                    <option value="Referral - Greencopper Prospect">Referral - Greencopper Prospect</option>
+                    <option value="Referral - Partner">Referral - Partner</option>
+                    <option value="Referral - PatronManager Client">Referral - PatronManager Client</option>
+                    <option value="Referral - PatronManager Prospect">Referral - PatronManager Prospect</option>
+                    <option value="Referral - SeatAdvisor Client">Referral - SeatAdvisor Client</option>
+                    <option value="Referral - SeatAdvisor Prospect">Referral - SeatAdvisor Prospect</option>
+                    <option value="Referral - ShowClix Client">Referral - ShowClix Client</option>
+                    <option value="Referral - ShowClix Prospect">Referral - ShowClix Prospect</option>
+                    <option value="Referral - Ticketleap Client">Referral - Ticketleap Client</option>
+                    <option value="Referral - Ticketleap Prospect">Referral - Ticketleap Prospect</option>
+                    <option value="Sales - Known Lead">Sales - Known Lead</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Social Media Ads">Social Media Ads</option>
+                    <option value="Third-Party">Third-Party</option>
+                    <option value="Trade Show">Trade Show</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <div class="g-recaptcha" data-sitekey="6Ld9Lr8UAAAAADEmqAXDwM6CSF21pAW9QCjHKmnO"></div>
+                  </div>
+                &nbsp;
+                  <div>
                   <input class="btn btn-primary btn-lg" type="submit" name="submit">
-
-                </form>
-              </div>
+                  </div>
+                </div>
+              </form>
             </div>
+            <div class="col-md-1"></div>
           </div>
         </div>
       </div>
-
       <footer>
         <div class="container">
           <div class="row">
@@ -156,9 +199,6 @@
       </div>
 
       <script src="https://d3js.org/d3.v4.min.js"></script>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/tether.min.js"></script>
-      <script src="js/svg-bg-babel.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

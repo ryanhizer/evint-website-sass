@@ -7161,18 +7161,6 @@ footer a.logo {
   display: block;
   width: 100px; }
 
-.margin-bottom-sm {
-  margin-bottom: 20px; }
-
-.margin-bottom-md {
-  margin-bottom: 40px; }
-
-.margin-bottom-lg {
-  margin-bottom: 60px; }
-
-.margin-bottom-none {
-  margin-bottom: 0; }
-
 img {
   width: 100%; }
 
@@ -7214,10 +7202,6 @@ label {
 html, body {
   max-width: 100%;
   overflow-x: hidden; }
-
-.navbar-dark {
-  background: #0E2445;
-  padding: 1rem 2rem; }
 
 .navbar-light {
   padding: 1rem 2rem; }
@@ -7262,6 +7246,10 @@ html, body {
   .thank-you .jumbotron h1, .thank-you .jumbotron p, .schedule-a-demo .jumbotron h1, .schedule-a-demo .jumbotron p {
     color: #1d1d1d; }
 
+section {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
 section.blue {
   background: #0e2445; }
   section.blue h1, section.blue h2, section.blue h3, section.blue h4, section.blue h5, section.blue h6, section.blue p {
@@ -7284,7 +7272,8 @@ section.blue {
 
 section.solid {
   padding-top: 0;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  margin: 0 1rem; }
 
 section.solid .container {
   padding-top: 10rem;
@@ -7304,15 +7293,52 @@ section.solid .container {
 
 footer {
   background-color: #f6f7f8;
-  padding-top: 6rem;
-  padding-bottom: 6rem; }
+  padding: 6rem 1rem; }
   footer .logo {
     width: 100px; }
+  footer ul, footer li {
+    margin-left: 0;
+    padding-left: 0; }
+    footer ul a.nav-link, footer li a.nav-link {
+      margin-left: 0;
+      padding-left: 0; }
 
 .cta {
   padding-top: 8em; }
   .cta .container {
     padding-bottom: 8em; }
+
+.margin-bottom-sm {
+  margin-bottom: 20px; }
+
+.margin-bottom-md {
+  margin-bottom: 40px; }
+
+.margin-bottom-lg {
+  margin-bottom: 60px; }
+
+.margin-bottom-none {
+  margin-bottom: 0; }
+
+@media (max-width: 767px) {
+  .margin-bottom-mobile-sm {
+    margin-bottom: 20px; }
+  .margin-bottom-mobile-md {
+    margin-bottom: 40px; }
+  .margin-bottom-mobile-lg {
+    margin-bottom: 60px; }
+  .margin-bottom-mobile-none {
+    margin-bottom: 0; }
+  .margin-top-mobile-sm {
+    margin-bottom: 20px; }
+  .margin-top-mobile-md {
+    margin-bottom: 40px; }
+  .margin-top-mobile-lg {
+    margin-bottom: 60px; }
+  .margin-top-mobile-none {
+    margin-bottom: 0; }
+  .padding-right-mobile-none {
+    padding-right: 0; } }
 
 body {
   color: black;
