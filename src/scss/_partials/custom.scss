@@ -3,12 +3,6 @@ html, body {
     overflow-x: hidden;
 }
 
-.navbar-dark {
-    background:$app-blue;
-    padding:1rem 2rem;
-}
-
-
 .navbar-light {
     padding:1rem 2rem;
 }
@@ -64,6 +58,11 @@ html, body {
   }
 }
 
+section {
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
 section.blue {
     background:desaturate(darken($app-blue,0),0);
     h1,h2,h3,h4,h5,h6,p {
@@ -92,6 +91,7 @@ section.blue {
 section.solid {
   padding-top:0;
   padding-bottom:0;
+  margin:0 1rem;
 }
 section.solid .container {
   padding-top:10rem;
@@ -113,10 +113,17 @@ section.solid .container {
 
 footer {
   background-color:lighten(#e8eaed,5);
-  padding-top:6rem;
-  padding-bottom:6rem;
+  padding:6rem 1rem;
   .logo {
     width:100px;
+  }
+  ul, li {
+    margin-left:0;
+    padding-left:0;
+      a.nav-link {
+      margin-left:0;
+      padding-left:0;
+    }
   }
 }
 
@@ -125,4 +132,46 @@ footer {
     padding-bottom:8em;
   }
   padding-top:8em;
+}
+
+.margin-bottom-sm {
+  margin-bottom:20px;
+}
+.margin-bottom-md {
+  margin-bottom:40px;
+}
+.margin-bottom-lg {
+  margin-bottom:60px;
+}
+.margin-bottom-none {
+  margin-bottom:0;
+}
+@media (max-width:$screen-md) {
+  .margin-bottom-mobile-sm {
+    margin-bottom:20px;
+  }
+  .margin-bottom-mobile-md {
+    margin-bottom:40px;
+  }
+  .margin-bottom-mobile-lg {
+    margin-bottom:60px;
+  }
+  .margin-bottom-mobile-none {
+    margin-bottom:0;
+  }
+  .margin-top-mobile-sm {
+    margin-bottom:20px;
+  }
+  .margin-top-mobile-md {
+    margin-bottom:40px;
+  }
+  .margin-top-mobile-lg {
+    margin-bottom:60px;
+  }
+  .margin-top-mobile-none {
+    margin-bottom:0;
+  }
+  .padding-right-mobile-none {
+    padding-right:0;
+  }
 }
