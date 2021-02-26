@@ -1,19 +1,310 @@
+/* Variables */
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: "AvenirNextLTPro-Regular", sans-serif; }
+
+h1, h2, h4, h6 {
+  font-family: "AvenirNextLTPro-Demi", sans-serif;
+  color: #1d1d1d; }
+
+h2, h4, h6 {
+  line-height: 1.2em; }
+
+h4 {
+  font-family: "AvenirNextLTPro-Demi", sans-serif; }
+
+h1 {
+  line-height: 1em;
+  font-family: "AvenirNextLTPro-Bold", sans-serif; }
+
+h6 {
+  font-size: 1.2em; }
+
+.headline_larger {
+  font-size: 3.3rem; }
+  @media (max-width: 991px) {
+    .headline_larger {
+      font-size: 2.5rem; } }
+  @media (max-width: 767px) {
+    .headline_larger {
+      font-size: 2.1rem; } }
+
+h3, h5, h6, p, a, li {
+  line-height: 1.5em; }
+
+.icon {
+  color: #04c7d0; }
+
+a {
+  font-size: 1.2em;
+  color: #04c7d0; }
+  a:hover {
+    color: #04c7d0;
+    cursor: pointer !important; }
+
+ul {
+  list-style-type: none; }
+
+footer p {
+  font-size: .8em; }
+
+.icon {
+  font-size: 3.5rem; }
+
+.theme-evint {
+  --fa-secondary-opacity: 1;
+  --fa-primary-color: white;
+  --fa-secondary-color: #24AB7E; }
+
+.theme-evint-dark {
+  font-size: 3em;
+  --fa-secondary-opacity: 1;
+  --fa-primary-color: #0B2970;
+  --fa-secondary-color: #24AB7E; }
+
+.boost {
+  font-size: 2rem; }
+
+.navbar-brand img.logo {
+  width: 100px; }
+
+.navbar {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.navbar-light .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: yellow; }
+
+.navbar-dark .navbar-toggler {
+  color: white;
+  opacity: 1;
+  border: none; }
+
+.navbar-light .navbar-toggler {
+  opacity: 1;
+  border: none; }
+
+.navbar-toggler:active,
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:visited {
+  outline: none; }
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.2rem; }
+
+.navbar-light .navbar-nav a.nav-link {
+  color: #03979E; }
+  .navbar-light .navbar-nav a.nav-link:hover {
+    color: #03afb7; }
+
+@media (max-width: 991px) {
+  .nav-item:first-of-type {
+    margin-top: 1rem; }
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-dark .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    text-align: center;
+    font-size: 2rem; } }
+
+.jumbotron {
+  margin-bottom: 0; }
+
+hr {
+  padding: 0;
+  margin: 0; }
+
+section, footer {
+  background-color: white;
+  padding-top: 6rem;
+  padding-bottom: 0rem; }
+
+section .container {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 6rem; }
+
+section.no-border .container {
+  border-bottom: none; }
+
+.container {
+  max-width: 76.875rem; }
+
+footer a.logo {
+  display: block;
+  width: 100px; }
+
+img {
+  width: 100%; }
+
+.btn-primary {
+  background-color: #23b790;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-family: "AvenirNextLTPro-Demi", sans-serif; }
+  .btn-primary:hover {
+    background-color: #1b8c6e; }
+
+.center {
+  display: block;
+  margin: 0 auto; }
+
 html, body {
   max-width: 100%;
   overflow-x: hidden; }
 
-.navbar-dark {
-  padding: 1rem; }
+.navbar-light {
+  padding: 1rem 2rem; }
 
 .homepage .jumbotron {
-  background: white;
-  background: #f8f8f8; }
+  background: white; }
 
 .homepage .jumbotron {
   padding-top: 2rem;
   padding-bottom: 5rem; }
   .homepage .jumbotron img {
-    width: 150%; }
+    width: 160%; }
+    @media (max-width: 767px) {
+      .homepage .jumbotron img {
+        width: 100%; } }
 
-.jumbotron h1 {
-  font-weight: 600; }
+.how-it-works .jumbotron {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url("../assets/img/elements_how-it-works.svg");
+  background-size: cover;
+  color: white;
+  border-radius: 0; }
+  .how-it-works .jumbotron h1 {
+    color: white; }
+
+.company .jumbotron {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: white;
+  background-size: cover;
+  color: white;
+  border-radius: 0; }
+  .company .jumbotron h1, .company .jumbotron p {
+    color: #1d1d1d; }
+
+.thank-you .jumbotron, .schedule-a-demo .jumbotron {
+  background: white;
+  background-size: cover;
+  color: white;
+  border-radius: 0; }
+  .thank-you .jumbotron h1, .thank-you .jumbotron p, .schedule-a-demo .jumbotron h1, .schedule-a-demo .jumbotron p {
+    color: #1d1d1d; }
+
+section {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+section.blue {
+  background: #0e2445; }
+  section.blue h1, section.blue h2, section.blue h3, section.blue h4, section.blue h5, section.blue h6, section.blue p {
+    color: white; }
+
+@media (max-width: 767px) {
+  .jumbo-image {
+    margin-top: 4em; } }
+
+.pt-badge {
+  display: block;
+  margin-top: 40px; }
+  @media (max-width: 767px) {
+    .pt-badge {
+      margin-top: 10px; } }
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  font-size: 1rem;
+  border-radius: 4px; }
+  @media (max-width: 767px) {
+    .btn {
+      width: 100%;
+      margin-bottom: 1rem; } }
+
+.btn-primary {
+  background-color: #03979E; }
+  .btn-primary:hover {
+    background-color: #03afb7; }
+
+section.solid {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0 1rem; }
+
+section.solid .container {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  border-radius: 10px; }
+
+.container.green {
+  background: #0E2445; }
+
+.container.green h3 {
+  font-family: "AvenirNextLTPro-Demi", sans-serif;
+  color: white; }
+
+.container.green span {
+  color: #24AB7E;
+  font-family: "AvenirNextLTPro-Bold", sans-serif; }
+
+footer {
+  background-color: #f6f7f8;
+  padding: 60px 1rem 0; }
+  footer .logo {
+    width: 100px; }
+  footer ul, footer li {
+    margin-left: 0;
+    padding-left: 0; }
+    footer ul a.nav-link, footer li a.nav-link {
+      margin-left: 0;
+      padding-left: 0; }
+
+.cta {
+  padding-top: 8em; }
+  .cta .container {
+    padding-bottom: 8em; }
+
+.margin-bottom-sm {
+  margin-bottom: 20px; }
+
+.margin-bottom-md {
+  margin-bottom: 40px; }
+
+.margin-bottom-lg {
+  margin-bottom: 60px; }
+
+.margin-bottom-none {
+  margin-bottom: 0; }
+
+@media (max-width: 767px) {
+  .margin-bottom-mobile-sm {
+    margin-bottom: 20px; }
+  .margin-bottom-mobile-md {
+    margin-bottom: 40px; }
+  .margin-bottom-mobile-lg {
+    margin-bottom: 60px; }
+  .margin-bottom-mobile-none {
+    margin-bottom: 0; }
+  .margin-top-mobile-sm {
+    margin-bottom: 20px; }
+  .margin-top-mobile-md {
+    margin-bottom: 40px; }
+  .margin-top-mobile-lg {
+    margin-bottom: 60px; }
+  .margin-top-mobile-none {
+    margin-bottom: 0; }
+  .padding-right-mobile-none {
+    padding-right: 0; } }
